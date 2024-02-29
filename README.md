@@ -7,7 +7,8 @@ I will also discuss some details about the processor that you may find helpful a
 - Why Konata logs for better debug statements in processors.
 - Bisection strategy to find bugs
 - FIFOs as our bread and butter
-- Brief note on scheduling (CF, combinational path, etc.)
+- Modularity, interfaces, `(* synthesis *)`, and `.sched`
+- Brief note on scheduling implications (CF, combinational path, etc.)
 - [Bluespec VS Code Extension](https://marketplace.visualstudio.com/items?itemName=MartinChan.bluespec) (disclosure: I made it)
 - Reassurance on the current lab.
 - Teaser on the next lab.
