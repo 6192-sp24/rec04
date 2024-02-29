@@ -25,4 +25,6 @@ Here is a picture of what `funky_fixed` looks like (and what your processor may 
 
 ![sneak peek of funky_fixed](pic_funky_fixed.png)
 
-Tip on working on the lab: focus on correctness with concurrency ("What is the minimum it would take (within reason) for these two stages to fire in the same cycle and maintain correctness?") , then look at optimizations like bypasses only if you have time left over. You will see as soon as the cache lab that your performance bottleneck will be cache misses.
+Tip on working on the lab: focus on correctness with concurrency ("What is the minimum it would take (within reason) for these two stages to fire in the same cycle and maintain correctness?") , and take it one step at a time.
+
+Don't worry too much about optimization yet. You will see as soon as the cache lab that your performance bottleneck will be cache misses.
