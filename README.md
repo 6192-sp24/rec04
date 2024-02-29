@@ -19,7 +19,7 @@ In this repo are the logs which you may look at on your own machine's installati
 - `3_concurrent_DW` is when we permit F and E to always fire, but D/W need to take turns.
 - `4_concurrent` logs are when we have four concurrent stages, with some variation between two different implementations of the redirect. One requires an additional cycle to redirect, and the other is bypassed. (at what cost?)
 - `funky` is a funky looking log from an almost-correct implementation of a four concurrent stage processor.
-- `funky_fixed` is when we switch two method calls in `funky`. It has the best cycles-per-instruction (at what cost? compare with `4_concurrent`)
+- `funky_fixed` is when we switch two method calls in `funky`. It has the best cycles-per-instruction (but not necessarily the best overall performance. why? compare with `4_concurrent`)
 
 Here is a picture of what `funky_fixed` looks like (and what your processor may look like when you're done!) in case you haven't opened Konata yet.
 
