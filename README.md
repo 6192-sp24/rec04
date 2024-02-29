@@ -21,4 +21,8 @@ In this repo are the logs which you may look at on your own machine's installati
 - `funky` is a funky looking log from an almost-correct implementation of a four concurrent stage processor.
 - `funky_fixed` is when we switch two method calls in `funky`. It has the best cycles-per-instruction (at what cost? compare with `4_concurrent`)
 
-Focus on correctness with concurrency ("What will it take for these two stages to fire in the same cycle and maintain correctness?") , then look at optimizations like bypasses only if you have time left over. You will see as soon as the cache lab that your performance bottleneck will be cache misses.
+Here is a picture of what `funky_fixed` looks like (and what your processor may look like when you're done!) in case you haven't opened Konata yet.
+
+![sneak peek of funky_fixed](pic_funky_fixed.png)
+
+Tip on working on the lab: on correctness with concurrency ("What will it take for these two stages to fire in the same cycle and maintain correctness?") , then look at optimizations like bypasses only if you have time left over. You will see as soon as the cache lab that your performance bottleneck will be cache misses.
