@@ -21,7 +21,7 @@ In this repo are the logs which you may look at on your own machine's installati
 - `funky` is a funky looking log from an almost-correct implementation of a four concurrent stage processor.
 - `funky_fixed` is when we switch two method calls in `funky`. It has the best cycles-per-instruction (but not necessarily the best overall performance. why? compare with `4_concurrent`)
 
-Here is a picture of what `funky_fixed` looks like (and what your processor may look like when you're done!) in case you haven't opened Konata yet.
+Here is a picture of what `funky_fixed` looks like (and what your processor may look like when you're done!) in case you haven't opened Konata yet. Each row is one instruction and each column is one cycle.
 
 ![sneak peek of funky_fixed](pic_funky_fixed.png)
 
